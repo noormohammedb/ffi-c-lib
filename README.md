@@ -1,5 +1,15 @@
 # Rust FFI C Library
 
+## To run rust code with c library
+```
+gcc -o libmymath.so -fpic -shared c-lib/mymath/mymath.c
+```
+```
+LD_LIBRARY_PATH=./:$LD_LIBRARY_PATH cargo run -r
+```
+
+### additional command to debug
+
 > cd c-lib
 
 > gcc -c main.c
