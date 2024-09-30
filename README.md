@@ -23,3 +23,5 @@
 > ldd main
 
 > LD_LIBRARY_PATH=./mymath ./main
+
+> LIBRARY_PATH="$(pwd)/c-lib/mymath:$LIBRARY_PATH" cargo run -r
