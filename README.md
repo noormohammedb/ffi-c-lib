@@ -14,8 +14,6 @@
 
 > nm libmymath.so
 
-> cp libmymath.so ../
-
 > cd c-lib
 
 > gcc -c main.c -o main.o
@@ -24,4 +22,4 @@
 
 > ldd main
 
-> LD_LIBRARY_PATH=. ./main
+> LD_LIBRARY_PATH=./mymath ./main
