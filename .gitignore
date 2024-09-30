@@ -1,1 +1,4 @@
 /target
+/c-lib/mymath/libmymath.so
+/c-lib/main.o
+/c-lib/main
