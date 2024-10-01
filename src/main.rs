@@ -1,3 +1,4 @@
+#[link(name = "mymath")]
 extern "C" {
 	fn my_add(a: i32, b: i32) -> i32;
 	fn my_sub(a: i32, b: i32) -> i32;
